@@ -1,0 +1,850 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>OCHA Japan</title>
+
+        <script type="text/javascript" src="http://www.unocha.org/misc/jquery-1.4.js"></script>
+    <script type="text/javascript">
+      var $jq = jQuery.noConflict();
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+<style type="text/css" media="all">
+@import "780a5324035ec384567f0c4d375fe028.css@1.css";
+@import "fdbda451e57ce8f23a06d617742c83f2_0.css@1.css";
+@import "node.css@1.css";
+@import "defaults.css@1.css";
+@import "system.css@1.css";
+@import "system-menus.css@1.css";
+@import "user.css@1.css";
+@import "calendar_multiday.css@1.css";
+@import "content-module.css@1.css";
+@import "ckeditor.css@1.css";
+@import "colorbox_default_style.css@1.css";
+@import "ctools.css@1.css";
+@import "date.css@1.css";
+@import "datepicker.css@1.css";
+@import "jquery.timeentry.css@1.css";
+@import "filefield.css@1.css";
+@import "logintoboggan.css@1.css";
+@import "nice_menus.css@1.css";
+@import "unocha_menu.css@1.css";
+@import "panels.css@1.css";
+@import "shib_auth.css@1.css";
+@import "extlink.css@1.css";
+@import "fieldgroup.css@1.css";
+@import "views.css@1.css";
+@import "flexible.css@1.css";
+@import "default.css@1.css";
+</style>
+<style type="text/css" media="all">
+@import "layout.css@1.css";
+@import "style.css@1.css";
+@import "unocha_theme.css@1.css";
+@import "views-slideshow-ddblock-cycle-vsd-ochatheme-front-top-10p.css@1.css";
+</style>
+<style type="text/css" media="print">
+@import "print.css@1.css";
+</style>
+<style type="text/css" media="screen">
+@import "tabs.css@1.css";
+</style>    <!--[if lte IE 6]><style type="text/css" media="all">@import "/japan/sites/unocha.org.japan/themes/ocha_country/css/ie6.css"</style><![endif]-->
+    <!--[if IE 7]><style type="text/css" media="all">@import "/japan/sites/unocha.org.japan/themes/ocha_country/css/ie7.css"</style><![endif]-->
+    <script type="text/javascript" src="jquery.min.js@1"></script>
+<script type="text/javascript" src="drupal.js@1"></script>
+<script type="text/javascript" src="jquery.colorbox-min.js@1"></script>
+<script type="text/javascript" src="colorbox.js@1"></script>
+<script type="text/javascript" src="colorbox_default_style.js@1"></script>
+<script type="text/javascript" src="colorbox_load.js@1"></script>
+<script type="text/javascript" src="colorbox_inline.js@1"></script>
+<script type="text/javascript" src="googleanalytics.js@1"></script>
+<script type="text/javascript" src="image_caption.js@1"></script>
+<script type="text/javascript" src="panels.js@1"></script>
+<script type="text/javascript" src="views_slideshow_ddblock.admin.js@1"></script>
+<script type="text/javascript" src="extlink.js@1"></script>
+<script type="text/javascript" src="jquery.cycle.all.min.js@1"></script>
+<script type="text/javascript" src="json2.pack.js@1"></script>
+<script type="text/javascript" src="views_slideshow_ddblock.js@1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/japan/", "colorbox": { "transition": "elastic", "speed": 350, "opacity": "0.85", "slideshow": false, "slideshowAuto": false, "slideshowSpeed": 2500, "slideshowStart": "", "slideshowStop": "", "current": "{current} of {total}", "previous": "« Prev", "next": "Next »", "close": "Close", "overlayClose": true, "maxWidth": "100%", "maxHeight": "100%" }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "extlink": { "extTarget": "_blank", "extClass": 0, "extSubdomains": 0, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": 0 }, "viewsSlideshowDdblockContent": { "front_top_stories_block_1": { "block": "front_top_stories_block_1", "nrOfItems": 3, "setDimensions": "vsd-ochatheme-front-top-10p", "contentContainer": "div.slide", "custom": "", "fx": "fade", "speed": 750, "timeOut": 4000, "pause": 1, "next": 0, "overflow": null, "pager": "number-pager", "pagerPosition": "bottom", "nrOfPagerItems": 3, "pagerContainer": ".custom-pager-item", "pagerEvent": "click", "pagerFast": 1, "pagerPause": 1, "pager2": 0, "pager2Event": "click", "pager2PagerHide": 1, "pager2SlideHide": 1, "slideText": 1, "slideTextjQuery": 0, "slideTextPosition": "bottom", "slideTextContainer": "div.slide-text", "slideTextEffectBefore": "hide", "slideTextEffectBeforeSpeed": 500, "slideTextEffectAfter": "show", "slideTextEffectAfterSpeed": 500 } }, "ddblockCustomTemplate": { "pager": "number-pager", "pagerContainer": ".custom-pager-item", "pagerPosition": "bottom" } });
+//--><!]]>
+</script>
+  </head>
+
+  <body class="front not-logged-in page-node node-type-page-general no-sidebars">
+    <div id="skip"><a href="index.html#content">Skip to Content</a> <a href="index.html#navigation">Skip to Navigation</a></div>
+    <div id="page">
+
+    <!-- ______________________ HEADER _______________________ -->
+
+    <div id="header">
+
+      <div id="logo-title">
+
+                  <a href="http://www.unocha.org" title="Home" rel="home" id="logo" target="_blank">
+            <img src="ocha_country_logo.png" alt="Home"/>
+          </a>
+        
+        <div id="name-and-slogan">
+                      <h1 id="site-name">
+              <a href="index.html" title="Home" rel="home"><span>Japan</span></a>
+            </h1>
+                            </div> <!-- /name-and-slogan -->
+
+      </div> <!-- /logo-title -->
+
+              <div id="header-region">
+          <div id="block-search-0" class="block block-search block-header block-id-891 clearfix odd">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <form action="index.html"  accept-charset="UTF-8" method="post" id="search-block-form">
+<div><div class="form-item" id="edit-search-block-form-1-wrapper">
+ <label for="edit-search-block-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_block_form" id="edit-search-block-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="hidden" name="form_build_id" id="form--GNBUPVwvn22-OaF6xcm_B8dXOVk04pn_TBejByx49Y" value="form--GNBUPVwvn22-OaF6xcm_B8dXOVk04pn_TBejByx49Y"  />
+<input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form"  />
+<input type="image" name="" id="image_button_id"  class="form-submit" src="http://www.unocha.org/japan//roap/sites/unocha.org.roap/files/images/searchbutton.gif" />
+
+</div></form>
+    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block --><div id="block-nice_menus-1" class="block block-nice_menus block-header block-id-48 clearfix even">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li class="menu-1043 menuparent menu-path-nolink-1043 first  odd "><a href="index.html#" class="nolink">OCHA について</a href="#"><ul><li class="menu-1035 menu-path-node-2 first  odd "><a href="about-ocha.html" title="About OCHA">OCHA とは</a></li>
+<li class="menu-2025 menu-path-node-176 even "><a href="ocha-神戸事務所.html" title="About OCHA Japan">OCHA 神戸事務所</a></li>
+<li class="menu-2414 menu-path-node-318 odd  last "><a href="faq.html" title="FAQ">よくあるご質問</a></li>
+</ul>
+</li>
+<li class="menu-1044 menuparent menu-path-nolink-1044 even "><a href="index.html#" class="nolink">世界の人道問題</a href="#"><ul><li class="menu-2024 menu-path-node-3 first  odd "><a href="humanitarian-reports.html" title="Humanitarian Reports">情報プロダクツ</a></li>
+<li class="menu-1343 menu-path-node-134 even "><a href="publications.html" title="Publications">資料・出版物</a></li>
+<li class="menu-2857 menu-path-node-3466 odd "><a href="世界人道サミット.html">世界人道サミット</a></li>
+<li class="menu-1352 menu-path-node-172 even "><a href="announcement.html" title="Announcement">お知らせ・イベント</a></li>
+<li class="menu-1364 menu-path-node-173 odd "><a href="multimedia.html" title="Videos">マルチメディア</a></li>
+<li class="menu-2921 menu-path-node-18331 even  last "><a href="18331.html" title="国内避難民">国内避難民</a></li>
+</ul>
+</li>
+<li class="menu-1046 menuparent menu-path-nolink-1046 odd "><a href="index.html#" class="nolink">日本の経験</a href="#"><ul><li class="menu-2423 menu-path-node-321 first  odd "><a href="great-east-japan-earthquake.html" title="Great East Japan Earthquake">東日本大震災と OCHA</a></li>
+<li class="menu-2424 menu-path-node-322 even "><a href="follow-activities.html" title="Follow-up activities">東日本大震災のフォローアップ活動</a></li>
+<li class="menu-2425 menu-path-node-323 odd "><a href="international-humanitarian-assistance.html" title="International Humanitarian Assistance">国際支援受け入れとその他の課題</a></li>
+<li class="menu-2856 menu-path-node-3284 even  last "><a href="政策提言.html" title="政策提言">政策提言</a></li>
+</ul>
+</li>
+<li class="menu-1047 menuparent menu-path-nolink-1047 even "><a href="index.html#" class="nolink">支援を可能にするために</a href="#"><ul><li class="menu-1039 menu-path-node-5 first  odd "><a href="financing-tools.html" title="Financing Tools">資金手当の為のツール</a></li>
+<li class="menu-2924 menu-path-node-18334 even "><a href="情報管理の為のツール.html" title="情報管理のためのツール">情報管理の為のツール</a></li>
+<li class="menu-2891 menu-path-node-7761 odd "><a href="リスク管理のための指標（inform）-0.html" title="
+	リスク管理のための指標（INFORM）
+">リスク管理のための指標（INFORM）</a></li>
+<li class="menu-2911 menu-path-node-14746 even "><a href="14746.html" title="人道プログラムサイクル">人道プログラムサイクル</a></li>
+<li class="menu-2906 menu-path-node-12666 odd "><a href="国連災害評価調整チーム（undac）.html" title="
+	国連災害評価調整チーム（UNDAC）
+">国連災害評価調整チーム（UNDAC）</a></li>
+<li class="menu-2901 menu-path-node-12661 even "><a href="国際捜索救助諮問グループinsarag.html" title="
+	国際捜索救助諮問グループ(INSARAG)
+">国際捜索救助諮問グループ(INSARAG)</a></li>
+<li class="menu-2858 menu-path-node-3579 odd "><a href="国際緊急援助のためのガイドブック.html" title="国際緊急援助のためのガイドブック">国際緊急援助のためのガイドブック</a></li>
+<li class="menu-2871 menu-path-node-4220 even  last "><a href="人道支援のための民軍調整.html" title="人道支援のための民軍調整">人道支援のための民軍調整</a></li>
+</ul>
+</li>
+<li class="menu-1048 menuparent menu-path-nolink-1048 odd "><a href="index.html#" class="nolink">パートナーシップ</a href="#"><ul><li class="menu-1038 menu-path-node-6 first  odd "><a href="ochas-partners.html" title="OCHA&#039;s Partners">OCHA のパートナー</a></li>
+<li class="menu-2426 menu-path-node-324 even "><a href="http://www.unocha.org/japan/partnerships/partnership-activities" title="Partnership Activities">日本でのパートナーシ ップ構築</a></li>
+<li class="menu-2427 menu-path-node-325 odd  last "><a href="ocha-and-japan.html" title="OCHA and Japan">日本と OCHA</a></li>
+</ul>
+</li>
+<li class="menu-2081 menuparent menu-path-nolink-2081 even  last "><a href="index.html#" class="nolink">トップストーリー</a href="#"><ul><li class="menu-2082 menu-path-node-287 first  odd  last "><a href="all-stories.html" title="All Stories">OCHA本部のトップストーリー</a></li>
+</ul>
+</li>
+</ul>
+    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div>
+      
+      
+    </div> <!-- /header -->
+
+    <!-- ______________________ MAIN _______________________ -->
+
+    <div id="main" class="clearfix">
+
+      <div id="content">
+        <div id="content-inner" class="inner column center">
+
+          
+          
+          <div id="content-area">
+            <div class="panel-flexible panels-flexible-1 clear-block" >
+<div class="panel-flexible-inside panels-flexible-1-inside">
+<div class="panels-flexible-row panels-flexible-row-1-7 panels-flexible-row-first clear-block panel-front-top">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-1-7-inside panels-flexible-row-inside-first clear-block">
+<div class="panels-flexible-region panels-flexible-region-1-top_ panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-top_-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views pane-front-top-stories"  id="panel-top-story">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-front-top-stories view-id-front_top_stories view-display-id-block_1 view-dom-id-11">
+    
+  
+  
+      <div class="view-content">
+      
+<!-- dynamic display block slideshow -->
+<div id="views-slideshow-ddblock-front_top_stories_block_1" class="views-slideshow-ddblock-cycle-vsd-ochatheme-front-top-10p clear-block">
+ <div class="container clear-block border">
+  <div class="container-inner clear-block border">
+      <!-- slider content -->
+   <div class="slider clear-block border">
+    <div class="slider-inner clear-block border">
+                  <div class="slide clear-block border">
+        <div class="slide-inner clear-block border">
+         <a href="how-we-build-stronger-data-driven-humanitarian-sector.html"><img alt="" src="large_60rVFhsmaqZo9P7d54N-zct3Phe4_lFVblpmQhUt02g_0.jpg" width=500 height=375></a></a>                   <div class="slide-text slide-text-horizontal slide-text-bottom clear-block border">
+           <div class="slide-text-inner clear-block border">
+                         <div class="slide-title slide-title-horizontal clear-block border">
+              <div class="slide-title-inner clear-block border">
+               <h2><a href="how-we-build-stronger-data-driven-humanitarian-sector.html">This is how we build a stronger, data-driven humanitarian sector</a></h2>
+              </div> <!-- slide-title-inner-->
+             </div>  <!-- slide-title-->
+                                     <div class="slide-body-horizontal clear-block border">
+              <div class="slide-body-inner clear-block border">
+               
+    
+            
+                    This article, written by USG Stephen O'Brien, is part of the World Economic Forum Annual Meeting 2017
+         <a href="how-we-build-stronger-data-driven-humanitarian-sector.html">Full Story &gt;&gt;</a>              </div> <!-- slide-body-inner-->
+             </div>  <!-- slide-body-->
+                                     <div class="slide-read-more slide-read-more-horizontal clear-block border">
+              <a href="all-stories.html">More Top Stories &gt;&gt;</a>             </div><!-- slide-read-more-->
+                       </div> <!-- slide-text-inner-->
+          </div>  <!-- slide-text-->
+                 </div> <!-- slide-inner-->
+       </div>  <!-- slide-->
+             <div class="slide clear-block border">
+        <div class="slide-inner clear-block border">
+         <a href="centre-humanitarian-data-connecting-people-and-data-improve-lives.html"><img alt="" src="storybannerpics_0.jpg" width=500 height=375></a></a>                   <div class="slide-text slide-text-horizontal slide-text-bottom clear-block border">
+           <div class="slide-text-inner clear-block border">
+                         <div class="slide-title slide-title-horizontal clear-block border">
+              <div class="slide-title-inner clear-block border">
+               <h2><a href="centre-humanitarian-data-connecting-people-and-data-improve-lives.html">Centre for humanitarian data: connecting people and data to improve lives</a></h2>
+              </div> <!-- slide-title-inner-->
+             </div>  <!-- slide-title-->
+                                     <div class="slide-body-horizontal clear-block border">
+              <div class="slide-body-inner clear-block border">
+               
+    
+            
+                    OCHA is establishing a Centre for Humanitarian Data to help people involved in humanitarian response have access to the data they need to make responsible and informed decisions
+         <a href="centre-humanitarian-data-connecting-people-and-data-improve-lives.html">Full Story &gt;&gt;</a>              </div> <!-- slide-body-inner-->
+             </div>  <!-- slide-body-->
+                                     <div class="slide-read-more slide-read-more-horizontal clear-block border">
+              <a href="all-stories.html">More Top Stories &gt;&gt;</a>             </div><!-- slide-read-more-->
+                       </div> <!-- slide-text-inner-->
+          </div>  <!-- slide-text-->
+                 </div> <!-- slide-inner-->
+       </div>  <!-- slide-->
+             <div class="slide clear-block border">
+        <div class="slide-inner clear-block border">
+         <a href="“i-live-mogadishu”-justin-brady.html"><img alt="" src="1-wPXSQDvKgKSVvvuQeccN6g_0.jpeg" width=500 height=375></a></a>                   <div class="slide-text slide-text-horizontal slide-text-bottom clear-block border">
+           <div class="slide-text-inner clear-block border">
+                         <div class="slide-title slide-title-horizontal clear-block border">
+              <div class="slide-title-inner clear-block border">
+               <h2><a href="“i-live-mogadishu”-justin-brady.html">“I live in Mogadishu,” by Justin Brady</a></h2>
+              </div> <!-- slide-title-inner-->
+             </div>  <!-- slide-title-->
+                                     <div class="slide-body-horizontal clear-block border">
+              <div class="slide-body-inner clear-block border">
+               
+    
+            
+                    OCHA Somalia Head of Office, Justin Brady, writes about the daily reality of working in the Somali capital.
+         <a href="“i-live-mogadishu”-justin-brady.html">Full Story &gt;&gt;</a>              </div> <!-- slide-body-inner-->
+             </div>  <!-- slide-body-->
+                                     <div class="slide-read-more slide-read-more-horizontal clear-block border">
+              <a href="all-stories.html">More Top Stories &gt;&gt;</a>             </div><!-- slide-read-more-->
+                       </div> <!-- slide-text-inner-->
+          </div>  <!-- slide-text-->
+                 </div> <!-- slide-inner-->
+       </div>  <!-- slide-->
+                 <div class="controls"> 
+       <span><a href="index.html" class="prev">Prev</a></span> 
+       <span><a href="index.html" class="next">Next</a></span> 
+       <span><a href="index.html" class="pause">Pause</a></span> 
+       <span><a href="index.html" class="play">Play</a></span> 
+      </div> 
+    </div> <!-- slider-inner-->
+   </div>  <!-- slider-->
+       <!-- number pager --> 
+     <div class="spacer-horizontal"><b></b></div>
+<!-- number pager -->
+<div id="views-slideshow-ddblock-number-pager-front_top_stories_block_1" class="number-pager views-slideshow-ddblock-pager clear-block">
+  <ul>
+   
+     <li class="number-pager-item">
+    <a href="index.html#" class="pager-link" title="click to navigate to topic">
+     1    </a>
+   </li>
+        <li class="number-pager-item">
+    <a href="index.html#" class="pager-link" title="click to navigate to topic">
+     2    </a>
+   </li>
+        <li class="number-pager-item">
+    <a href="index.html#" class="pager-link" title="click to navigate to topic">
+     3    </a>
+   </li>
+        
+ </ul>
+</div> 
+<div class="number-pager-pre-bottom "></div>
+ 
+     </div> <!-- container-inner-->
+ </div> <!--container-->
+</div> <!--  template -->
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-1-right_1_ panel-front-top-region">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-right_1_-inside">
+<div class="panel-pane pane-views pane-page-block-node-views"  id="panel-front-top-box">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-node-views view-id-page_block_node_views view-display-id-default view-dom-id-7">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"><a href="about-emergency-relief-coordinator.html"><img src="usg_Obrien_1.png" alt="" title=""  class="imagecache imagecache-front_top_box imagecache-default imagecache-front_top_box_default" width="180" height="138" /></a></span>
+  </div>
+  
+  <span class="views-field-title">
+                <span class="field-content"><b>USG/ERC: </b></span>
+  </span>
+  
+  <span class="views-field-field-short-description-value">
+                <span class="field-content"><a href="about-emergency-relief-coordinator.html">緊急援助調整官について</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-page-block-node-views"  id="panel-front-top-box">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-node-views view-id-page_block_node_views view-display-id-default view-dom-id-8">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"><a href="世界人道サミット.html"><img src="world&#32;summit&#32;day.jpg" alt="" title=""  class="imagecache imagecache-front_top_box imagecache-default imagecache-front_top_box_default" width="180" height="138" /></a></span>
+  </div>
+  
+  <span class="views-field-title">
+                <span class="field-content"><b>Join the Discussion: </b></span>
+  </span>
+  
+  <span class="views-field-field-short-description-value">
+                <span class="field-content"><a href="世界人道サミット.html">世界人道サミット</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-1-right_2_ panels-flexible-region-last panel-front-top-region">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-right_2_-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-views pane-page-block-feed-items-view"  id="panel-front-top-box">
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-feed-items-view view-id-page_block_feed_items_view view-display-id-block_5 reliefweb-map-block view-dom-id-9">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-phpcode">
+                <span class="field-content"><a href="http://reliefweb.int/map/colombia/zonas-veredales-transitorias-de-normalizaci-n-zvtn-24-junio-2016"><img src="http://img.static.reliefweb.int/sites/reliefweb.int/files/styles/m/public/resources-pdf-previews/591421-mapa_zonasveredalestransicion_elc.png?itok=N2bPQTRh"  style='max-width:180px;height:138;'></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><b>Latest Map: </b><a href="http://reliefweb.int/map/colombia/zonas-veredales-transitorias-de-normalizaci-n-zvtn-24-junio-2016">Colombia: Zonas Veredales Transitorias de...</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-page-block-node-views" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-node-views view-id-page_block_node_views view-display-id-default view-dom-id-10">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"><a href="ocha-神戸事務所.html"><img src="http://www.unocha.org/japan/sites/unocha.org.japan/files/imagecache/front_top_box/OCHA Watabe.jpg" alt="" title=""  class="imagecache imagecache-front_top_box imagecache-default imagecache-front_top_box_default" width="180" height="138" /></a></span>
+  </div>
+  
+  <span class="views-field-title">
+                <span class="field-content"><b>Highlights: </b></span>
+  </span>
+  
+  <span class="views-field-field-short-description-value">
+                <span class="field-content"><a href="ocha-神戸事務所.html">OCHA神戸事務所について</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-1-2 panels-flexible-row-last clear-block panel-front-bottom">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-1-2-inside panels-flexible-row-inside-last clear-block">
+<div class="panels-flexible-region panels-flexible-region-1-2_column panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-2_column-inside panels-flexible-region-inside-first">
+<div class="rounded-corner">
+  <div class="wrap-corner">
+    <div class="t-edge"><div class="l"></div><div class="r"></div></div>
+    <div class="l-edge">
+      <div class="r-edge clear-block">
+        <div class="panel-pane pane-views pane-page-block-local-articles-view panel-front-bottom" >
+  
+      <h2 class="pane-title">お知らせ・イベント</h2>
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-local-articles-view view-id-page_block_local_articles_view view-display-id-block_2 view-dom-id-3">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="データで読み解く世界の人道状況-2016年度レポート発表.html">データで読み解く世界の人道状況: 2016年度レポート発表</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="ocha設立から25年.html">OCHA設立から25年</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="g7保健大臣会合に出席.html">G7保健大臣会合に出席</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="2016年「世界人道デー」記念イベント閉幕.html">2016年「世界人道デー」記念イベント閉幕</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="「世界人道デー」記念イベント開催のお知らせ.html">2016年「世界人道デー」記念イベント開催のお知らせ</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.unocha.org/japan/local-articles/news-and-events/%E4%B8%96%E7%95%8C%E4%BA%BA%E9%81%93%E3%82%B5%E3%83%9F%E3%83%83%E3%83%88%EF%BC%9A%E6%88%90%E6%9E%9C%E3%81%A8%E4%BB%8A%E5%BE%8C">世界人道サミット：成果と今後</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="5.html">
+    More &gt;&gt;  </a>
+</div>
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+      </div>
+    </div>
+    <div class="b-edge"><div class="l"></div><div class="r"></div></div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-1-1_column ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-1_column-inside">
+<div class="rounded-corner">
+  <div class="wrap-corner">
+    <div class="t-edge"><div class="l"></div><div class="r"></div></div>
+    <div class="l-edge">
+      <div class="r-edge clear-block">
+        <div class="panel-pane pane-views pane-page-block-feed-items-view panel-front-bottom" >
+  
+      <h2 class="pane-title">マルチメディア</h2>
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-feed-items-view view-id-page_block_feed_items_view view-display-id-block_3 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-phpcode-2">
+                <span class="field-content"><a class="colorbox-inline" href='http://www.unocha.org/emvideo/modal/219046/800/600/field_smugmug_gallery/smugmug_gallery/55672216_vRRbWs?width=810&height=610&iframe=true'><img src="emvideo-smugmug_gallery-55672216_vRRbWs.jpg" width=200 height=138></a></span>
+  </div>
+  
+  <div class="views-field-title">
+                <span class="field-content"><b>Latest Multimedia: </b><a class="colorbox-inline" href='http://www.unocha.org/emvideo/modal/219046/800/600/field_smugmug_gallery/smugmug_gallery/55672216_vRRbWs?width=810&height=610&iframe=true'>Tropical Cyclone Winston - Koro Island</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-page-block-feed-items-view view-id-page_block_feed_items_view view-display-id-attachment_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-more-link-url">
+                <span class="field-content"></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+      </div>
+    </div>
+    <div class="b-edge"><div class="l"></div><div class="r"></div></div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-1-center_highlights ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-center_highlights-inside">
+<div class="rounded-corner">
+  <div class="wrap-corner">
+    <div class="t-edge"><div class="l"></div><div class="r"></div></div>
+    <div class="l-edge">
+      <div class="r-edge clear-block">
+        <div class="panel-pane pane-views pane-page-block-feed-items-view panel-front-bottom" >
+  
+      <h2 class="pane-title">緊急援助調整官より</h2>
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-feed-items-view view-id-page_block_feed_items_view view-display-id-block_8 view-dom-id-6">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.unocha.org/node/178561">Key Messages on Yemen, Issue 4</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.unocha.org/node/69924">Key Messages on Central African Republic - Issue 2</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.unocha.org/node/43587">Key Messages on the Central African Republic, Issue 1</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.unocha.org/node/41435">Key Messages on Typhoon Haiyan/Yolanda, Issue 1</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.unocha.org/node/28283">Key Messages on Afghanistan, Issue 2</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-page-block-feed-items-view view-id-page_block_feed_items_view view-display-id-attachment_1 view-dom-id-5">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-more-link-url">
+                <span class="field-content"><a href="http://unocha.org/media-resources/erc-key-messages">More &gt;&gt;</a></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+      </div>
+    </div>
+    <div class="b-edge"><div class="l"></div><div class="r"></div></div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-1-3_column panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-3_column-inside panels-flexible-region-inside-last">
+<div class="rounded-corner">
+  <div class="wrap-corner">
+    <div class="t-edge"><div class="l"></div><div class="r"></div></div>
+    <div class="l-edge">
+      <div class="r-edge clear-block">
+        <div class="panel-pane pane-views pane-page-block-node-views panel-front-bottom" >
+  
+      <h2 class="pane-title">お問い合わせ</h2>
+  
+  
+  <div class="pane-content">
+    <div class="view view-page-block-node-views view-id-page_block_node_views view-display-id-block_1 view-dom-id-4">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field-field-image-file-fid">
+                <span class="field-content"></span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	<strong>国連人道問題調整事務所（OCHA）神戸事務所</strong></p>
+<div>
+	〒 651-0073</div>
+<div>
+	神戸市中央区脇浜海岸通1-5-2</div>
+<div>
+	人と防災未来センター東館 5階</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>TEL:</strong> (078) 262-5555</div>
+<div>
+	<strong>FAX:</strong> (078) 262-5558</div>
+<div>
+	<strong>Email:</strong> <a href="mailto:ocha-kobe@un.org">ocha-kobe@un.org</a></div>
+<div>
+	&nbsp;</div>
+<div>
+	<a href="about-ocha.html">詳細はこちら</a>をご覧下さい。</div></div>
+  </div>
+  
+  <div class="views-field-edit-node">
+                <span class="field-content"></span>
+  </div>
+  
+  <div class="views-field-field-more-link-url">
+                <span class="field-content"></span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+      </div>
+    </div>
+    <div class="b-edge"><div class="l"></div><div class="r"></div></div>
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+          </div> <!-- /#content-area -->
+
+          
+          
+          </div>
+        </div> <!-- /content-inner /content -->
+
+
+
+         <!-- /sidebar-left -->
+
+         <!-- /sidebar-second -->
+
+      </div> <!-- /main -->
+
+      <!-- ______________________ FOOTER _______________________ -->
+
+              <div id="footer">
+                    <div id="block-block-1" class="block block-block block-footer_block block-id-91 clearfix odd">
+  <div class="block-inner">
+
+    
+    <div class="content">
+      <table align="center" width="100%">
+<tr>
+<td width="200px">
+</td>
+<td><a href="https://www.facebook.com/OCHAKobe" target="_blank"><img border="0" src="Facebook-icon_sm.png" /></a></td>
+<td><a href="http://www.youtube.com/playlist?list=PLTJIIRpIQjX3IL0OGR8jgmcfiIA1O_1nJ" target="_blank"><img border="0" src="youtube_front.gif" /></a></td>
+<td align="right" width="100px"><span><img src="UNblue_small.gif" width="50" height="41" /></span></td>
+<td align="left" width="700px"><span style="font-size: 14px; font-weight:bold;">&nbsp;&nbsp;<a href="http://www.un.org/en/" target="_blank">国連</a>&nbsp;・&nbsp;<a href="http://www.unocha.org/" target="_blank">OCHA</a>&nbsp;・&nbsp;<a href="http://www.unocha.org/roap/" target="_blank">OCHAアジア太平洋地域</a>&nbsp;・&nbsp;<a href="http://www.humanitarianinfo.org/iasc/" target="_blank">IASC</a><br />&nbsp;&nbsp;<a href="http://cerf.un.org/" target="_blank">国連人道基金 (CERF)</a>&nbsp;・&nbsp;<a href="http://www.unocha.org/cap" target="_blank">人道アピール</a>&nbsp;・&nbsp;<a href="http://www.reliefweb.int/" target="_blank">リリーフウェブ</a>&nbsp;・&nbsp;<a href="http://www.un.org/en/events/humanitarianday/" target="_blank">世界人道デー</a><br />&nbsp;&nbsp;<a href="http://www.unocha.org/about-us/employment" target="_blank">OCHA 職員募集</a>&nbsp;・&nbsp;<a href="http://www.unocha.org/humansecurity/" target="_blank">国連人間の安全保障基金</a>&nbsp;・&nbsp;<a href="https://www.humanitarianresponse.info/" target="_blank">情報管理プラットフォーム</a></span><br /></td>
+</tr>
+</table>
+<p><span style="font-size: 10px;"><a href="665.html">当サイトご利用について</a></span><span> | </span><span><span><a href="sitemap.html">サイトマップ</a>&nbsp;<a class="login_link" href="user.html">Login</a></span></span></p>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38803131-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>    </div>
+
+    
+  </div> <!-- /block-inner -->
+</div> <!-- /block -->        </div> <!-- /footer -->
+      
+    </div> <!-- /page -->
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-1433955-34"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+  </body>
+</html>

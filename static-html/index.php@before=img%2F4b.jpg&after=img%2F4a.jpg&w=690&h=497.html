@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.8.13.custom.min.js"></script>
+	<script type="text/javascript" src="jquery.beforeafter-1.4.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		$('#container').beforeAfter();
+/*
+		$('#container-2').beforeAfter();
+		$('#container-3').beforeAfter();
+		$('#container-4').beforeAfter();
+		$('#container-5').beforeAfter();
+		$('#container-6').beforeAfter();
+*/		
+	});
+	</script>
+	<style>
+	.balinks { display: none; }
+	</style>
+</head>
+<body>
+	<div id="container">
+         <div><img alt="before" src="4b.jpg" width="690" height="497" /></div>
+         <div><img alt="after" src="4a.jpg" width="690" height="497" /></div>
+	</div>
+</body>
+</html>
